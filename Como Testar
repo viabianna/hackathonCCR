@@ -1,17 +1,34 @@
-Os seguintes formulários simulam funcionalidades do app.
+Todos os arquivos de formulário estão disponíveis na pasta:
+https://drive.google.com/drive/folders/1E-ybCDyp66BF_cJnjGBzWjxmiWYeJB9p
+
+Os formulários simulam interações do aplicativo com o banco de dados.
 São eles:
 
-Cadastro de novo usuário:
-Entrada de atividade/pontos:
+Cadastro de novo usuário: https://forms.gle/6qQXdesA9KXPg6vw8
+Entrada de atividade/pontos: 
 Consumo de pontos:
 
-Cada envio de formulário alimenta uma planilha, que usaremos como base de dados para funcionamento do algoritmo.
+Cada envio de formulário alimenta a planilha, que usaremos como base de dados para funcionamento do algoritmo.
 Planilha banco de dados: https://docs.google.com/spreadsheets/d/1t3868phzUgR2Q_8k_wQpYMM7G-Nc61xXpdV4TMVPbB0/edit#gid=0
 
 Abas:
 
 
 
-O arquivo configuracoes.R contém as configurações iniciais para conectar ao google sheets e gerar as tabelas que serão usadas.
+
 Para se conectar à planilha, no navegador será socilitada permissão para acesso que vai gerar um token que deve ser adicionado ao console.
+
+1. criação de usuário
+cria-se um usuário no formulário e roda-se o algoritmo em "calculo de perfil".
+Esse algoritmo deve alimentar a tabela de perfil com o plano de treino daquele usuário.
+
+2. adicionar atividade feita
+no formulário de atividades, selecionar o usuário e a atividade feita.
+rodar o algoritmo "ganho de pontos"
+A tabela "controle de pontos" deve ser atualizada com a nova pontuação.
+
+3. uso de cupom
+no formulário de uso de cupom, selecionar o cupom utilizado e rodar o algoritmo.
+Caso o usuário não tenha pontos suficientes, uma mensagem será exibida no console e a entrada será excluída da planilha.
+Se o usuário tiver pontos suficientes, a aba "controle de pontos" será atualizada e o novo registro será mantido.
 

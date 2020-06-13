@@ -1,0 +1,17 @@
+Os seguintes formulários simulam funcionalidades do app.
+São eles:
+
+Cadastro de novo usuário:
+Entrada de atividade/pontos:
+Consumo de pontos:
+
+Cada envio de formulário alimenta uma planilha, que usaremos como base de dados para funcionamento do algoritmo.
+Planilha banco de dados: https://docs.google.com/spreadsheets/d/1t3868phzUgR2Q_8k_wQpYMM7G-Nc61xXpdV4TMVPbB0/edit#gid=0
+
+Abas:
+
+
+
+O arquivo configuracoes.R contém as configurações iniciais para conectar ao google sheets e gerar as tabelas que serão usadas.
+Para se conectar à planilha, no navegador será socilitada permissão para acesso que vai gerar um token que deve ser adicionado ao console.
+

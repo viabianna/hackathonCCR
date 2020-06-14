@@ -5,8 +5,8 @@ Os formulários simulam interações do aplicativo com o banco de dados.
 São eles:
 
 Cadastro de novo usuário: https://forms.gle/6qQXdesA9KXPg6vw8
-Entrada de atividade/pontos: 
-Consumo de pontos:
+Entrada de atividade/pontos: https://forms.gle/baYUjwXKnfQ7iXMy5
+Aplicar desconto: https://forms.gle/wcMySvj2LcvQWUW7A
 
 Cada envio de formulário alimenta a planilha, que usaremos como base de dados para funcionamento do algoritmo.
 Planilha banco de dados: https://docs.google.com/spreadsheets/d/1t3868phzUgR2Q_8k_wQpYMM7G-Nc61xXpdV4TMVPbB0/edit#gid=0

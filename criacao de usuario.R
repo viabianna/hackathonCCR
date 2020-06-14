@@ -68,7 +68,7 @@ grupo <- rep("Sedentário Nível 1", nrow(users_raw))
 for (i in 1:nrow(users_raw)){
   if(score_final[i] < 20){grupo[i] <- "Ativo Nível 2"}
   else if(score_final[i] < 50){grupo[i] <- "Ativo Nível 1"}
-  else if(score_final[i] < 100){grupo[i] <- "Sedentário Nível 1"}
+  else if(score_final[i] < 100){grupo[i] <- "Sedentário Nível 2"}
 }
 
 subgrupo <- rep("nenhum", nrow(users_raw))

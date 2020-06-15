@@ -1,6 +1,10 @@
 # hackathonCCR
+# Equipe 211 - Duca
 
-Com base em dados científicos, os algoritmos apresentados criam um plano de treinamento e dão pontuação para a execução frequente desses treinos.
+Os algoritmos apresentados criam um plano de treinamento e dão pontuação para a execução frequente desses treinos, a partir da referência tecnica abaixo:
+
+*referência tecnica desenvolvida pelo grupo* em https://drive.google.com/file/d/1zQj1WG7zJM02E48RbZO2pnVCzSFbjMfQ/view?usp=sharing
+
 
 Os inputs e outputs do algoritmo podem ser visto nas planilhas indicadas em *como testar*.
 
